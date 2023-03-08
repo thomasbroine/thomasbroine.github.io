@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(102, 102, 102);
+}
+
+nav{
+    background-color: #333;
+    
+    width: 40%;
+    height: 15%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    left: 30%;
+    border-radius: 25px;
+    
+}
+
+
+nav ul
+{
+    list-style-type:none;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+nav li a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+}
